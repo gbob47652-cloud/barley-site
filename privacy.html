@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Barley Privacy Policy</title>
+<style>
+:root{--bg:#FBF6EE;--paper:#FFFDF9;--ink:#2E3229;--muted:#6F7466;--line:#E7DFD2;--accent:#4E7A4A}
+@media (prefers-color-scheme:dark){:root{--bg:#0A1831;--paper:#142744;--ink:#EEF2FB;--muted:#AAB6CF;--line:#2A3E62;--accent:#9CC79A}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px 64px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:24px 22px}
+h1{font-size:28px;line-height:1.25;margin:0 0 8px}h2{font-size:20px;margin:28px 0 8px}h3{font-size:17px;margin:20px 0 6px}
+p,li{color:var(--ink)}em{color:var(--muted);font-style:normal}a{color:var(--accent)}
+table{width:100%;border-collapse:collapse;font-size:14px;margin:8px 0}th,td{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}
+nav{display:flex;gap:16px;margin-bottom:16px;font-size:15px}nav a{text-decoration:none}
+</style></head><body><main>
+<nav><a href="./">Barley</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+<div class="card">
+<h1>Barley Privacy Policy</h1>
+<p><em>Last updated October 29, 2026</em></p>
+<p>Barley ("the app", "we", "us") is a task and companion app for iPhone. This policy explains what the app collects, where it goes, and the choices you have. We wrote it to be read, not skimmed past.</p>
+<h2>The short version</h2>
+<ul><li>Your tasks, notes, timeline, focus sessions, moods and chat history are stored <strong>on your phone</strong>.</li><li>AI chat is <strong>optional</strong>. If you turn it on, the messages you send and some context (below) go to our server and to an AI provider so your pet can reply.</li><li>We don't show ads, don't sell your data, and don't use third-party analytics or tracking.</li><li>The app counts how features are used (for example, whether a call reminder was answered), without any content. You can turn this off.</li><li>You can turn AI off and delete your cloud account in <strong>Me → Account &amp; privacy</strong>.</li></ul>
+<h2>What stays on your phone</h2>
+<p>Tasks and lists, reminders, the timeline, notes, focus sessions, mood entries, daily reviews, chat history, your pet's memories about you, and your settings. This data doesn't leave your device unless you use AI chat or export a backup yourself. Deleting the app deletes it.</p>
+<h2>What leaves your phone, and why</h2>
+<h3>AI chat (only if you turn it on)</h3>
+<p>To write your pet's replies, the app sends:</p>
+<ul><li>the message you send and recent messages in the conversation;</li><li>what your pet remembers about you;</li><li>tasks in lists you've shared with your pet, and records you choose to attach.</li></ul>
+<p>Lists you keep private are never sent. These requests go through our server (hosted on Supabase) to <strong>DeepSeek</strong>, which generates the reply. Before your first chat, the app shows this and asks for your consent. AI providers may keep request logs under their own policies; we can't recall a request after it's sent.</p>
+<h3>Anonymous account</h3>
+<p>When you use AI features, the app creates an anonymous account on our server. It has no name, email or password. It's used to:</p>
+<ul><li>apply daily AI usage limits and prevent abuse;</li><li>run scheduled check-ins (for example, an evening pep talk).</li></ul>
+<h3>Scheduled check-ins</h3>
+<p>For a check-in to arrive on time, our server stores what you asked for, when, and a short summary of context the pet needs (such as relevant memories), plus a notification token for your device.</p>
+<h3>Anonymous usage counts</h3>
+<p>To learn which features help, the app sends short usage events to our server, such as "a call reminder was answered" or "a task was created", with the app version and a random ID made for this installation. These events never include task titles, chat messages, notes or any other content, and the random ID isn't linked to your AI account. You can turn this off in <strong>Me → Account &amp; privacy → Share anonymous usage stats</strong>; the app then stops sending and clears any unsent events.</p>
+<h3>Notifications</h3>
+<p>Reminders you set are scheduled on your phone. Check-ins sent from our server use a push token delivered through Expo's push service and Apple Push Notification service.</p>
+<h2>What we don't do</h2>
+<ul><li>No advertising and no ad identifiers.</li><li>No selling or renting of personal data.</li><li>No third-party analytics, tracking or profiling across apps.</li></ul>
+<h2>Service providers</h2>
+<table><thead><tr><th>Provider</th><th>What it does</th><th>Data involved</th></tr></thead><tbody><tr><td>Supabase</td><td>Hosts our server and the anonymous account</td><td>AI requests in transit, AI usage limits, anonymous usage events, check-in details, push token</td></tr><tr><td>DeepSeek</td><td>Generates AI replies</td><td>The AI chat content described above</td></tr><tr><td>Expo / Apple</td><td>Delivers push notifications</td><td>Push token, notification text</td></tr></tbody></table>
+<h2>How long we keep it</h2>
+<ul><li>On your phone: until you delete it or the app.</li><li>Anonymous account, AI usage limits and check-in data: until you delete your cloud account in the app.</li><li>Anonymous usage events: up to 13 months, then deleted.</li><li>AI provider logs: according to the provider's own policy.</li></ul>
+<h2>Your choices</h2>
+<ul><li><strong>Turn off AI chat:</strong> Me → Account &amp; privacy. The app stops sending chat content and deletes your check-in details and push token from our server.</li><li><strong>Delete your cloud account:</strong> Me → Account &amp; privacy → Delete anonymous cloud account. This can't be undone; data on your phone stays.</li><li><strong>Export your records:</strong> Me → Data &amp; backup.</li><li><strong>Ask us anything</strong> or request access or deletion: <a href="mailto:gbob47652@gmail.com">gbob47652@gmail.com</a>.</li></ul>
+<p>Depending on where you live (for example, California or the EU), you may have extra rights to access, correct or delete your data. Contact us and we'll help.</p>
+<h2>Children</h2>
+<p>Barley isn't directed at children under 13, and we don't knowingly collect their personal information. If you believe a child has used AI chat, contact us and we'll delete the related cloud data.</p>
+<h2>Health and safety</h2>
+<p>Barley's pet is an AI companion, not a doctor, therapist or crisis service. If you're in danger or need urgent help, contact local emergency services.</p>
+<h2>Changes</h2>
+<p>If we change this policy, we'll update the date above and, for important changes, let you know in the app.</p>
+<h2>Contact</h2>
+<p>Email us at <a href="mailto:gbob47652@gmail.com">gbob47652@gmail.com</a>.</p>
+</div></main></body></html>
